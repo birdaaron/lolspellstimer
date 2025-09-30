@@ -73,7 +73,13 @@
 
 .setting-panel-spell-btn {
   height: 68px;
-  padding: 0px;
+  width: 68px;
+  padding: 0;
+  border: 0;
+}
+.setting-panel-spell-btn img {
+  height: 100%;
+  width: 100%;
 }
 .spells-wrapper {
   display: flex;
