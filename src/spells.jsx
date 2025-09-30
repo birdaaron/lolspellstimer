@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./spells.css";
 import { spellsIcons } from "./spellsData";
-import arrowDown from "./assets/arrow_down.svg";
+import arrowDown from "/assets/arrow_down.svg";
 function Spells({ spell, onSettingClick, bootsEnabled, cosmicEnabled }) {
   const spellData = spellsIcons[spell] || spellsIcons["flash"];
   const modifiedCD = Math.round(

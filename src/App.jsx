@@ -39,12 +39,12 @@ function CdWrapper({
   return (
     <div className="cd-wrapper">
       <CdOption
-        icon="src/assets/boots.png"
+        icon="/assets/boots.png"
         enabled={bootsEnabled}
         onToggle={() => setBootsEnabled(!bootsEnabled)}
       />
       <CdOption
-        icon="src/assets/CosmicInsight.png"
+        icon="/assets/CosmicInsight.png"
         enabled={cosmicEnabled}
         onToggle={() => setCosmicEnabled(!cosmicEnabled)}
       />
@@ -69,11 +69,11 @@ function App() {
   };
   const positions = ["top", "jug", "mid", "bot", "sup"];
   const pos_icon = [
-    "src/assets/pos_top.png",
-    "src/assets/pos_jug.png",
-    "src/assets/pos_mid.png",
-    "src/assets/pos_bot.png",
-    "src/assets/pos_sup.png",
+    "/assets/pos_top.png",
+    "/assets/pos_jug.png",
+    "/assets/pos_mid.png",
+    "/assets/pos_bot.png",
+    "/assets/pos_sup.png",
   ];
   const [showPanel, setShowPanel] = useState(null);
   const [skills, setSkills] = useState(defaultSettings);
